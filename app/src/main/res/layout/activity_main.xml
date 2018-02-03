@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.ritik.myapplication.MainActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="237dp"
+            android:layout_height="295dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@drawable/pp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pp"
+            tools:layout_editor_absoluteX="74dp" />
+
+        <Switch
+            android:id="@+id/usertypeswitch"
+            android:layout_width="55dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            tools:layout_editor_absoluteX="175dp"
+            tools:layout_editor_absoluteY="338dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="87dp"
+            android:layout_height="45dp"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignTop="@+id/usertypeswitch"
+
+            android:text="@string/student"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="338dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="87dp"
+            android:layout_height="45dp"
+            android:layout_alignTop="@+id/usertypeswitch"
+            android:layout_toLeftOf="@+id/usertypeswitch"
+            android:layout_toStartOf="@+id/usertypeswitch"
+
+            android:text="@string/coordinator"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="338dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usertypeswitch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:onClick="getstarted"
+            android:text="@string/START" />
+
+    </RelativeLayout>
+
+
+

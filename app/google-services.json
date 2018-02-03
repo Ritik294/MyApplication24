@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "582514050516",
+    "firebase_url": "https://ritik294-e5ac8.firebaseio.com",
+    "project_id": "ritik294-e5ac8",
+    "storage_bucket": "ritik294-e5ac8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582514050516:android:5267d093ab52155f",
+        "android_client_info": {
+          "package_name": "com.example.ritik.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582514050516-15i9vtdbcn2uoh49sahgk2qu39o092eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBcOdxB4fWxBzFMu2hRP6yXusFc3smlwQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
